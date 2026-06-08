@@ -1,2 +1,26 @@
 # Python_Journey
-Documenting my journey of learning Python from fundamentals to advanced programming, problem-solving, and real-world projects. Also to remain Consistent
+
+This repository documents my Python learning journey from beginner to advanced.
+
+## Completed Topics
+- Variables
+- Data Types
+- Operators
+- Strings
+- Lists
+- Tuples
+- Sets
+- Dictionaries
+
+## Upcoming Topics
+- Loops
+- Functions
+- Modules
+- File Handling
+- Exception Handling
+- Regular Expression
+- Oops
+- Tkinter
+- Data Analysis
+- Django
+- Flask
