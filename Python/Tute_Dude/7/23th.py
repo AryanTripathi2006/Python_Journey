@@ -59,9 +59,30 @@ Student1 = {"maths": 80.5, "English": 76.0, "Physics": 89.0}
 # Keys cannot be duplicated in a dict and the value should be the most recent value
 
 
-d1 = {{'a': 1}: 6,{'b': 2}: 12}
-print(d1)
+# d1 = {{'a': 1}: 6,{'b': 2}: 12}
+# print(d1)
+
+# keys allowed: str, int, float, bool, tuples  --> immutable datatype
+# Keys not allowed: list, set, dict  --> mutable datatype
+
+# values can be any data-type
 
 
-# keys allowed: str, int, float, bool, tuples
-# Keys not allowed: list, set
+student_1 = {'id': 1001, 'name': 'John', 'marks': {'phy': 89.5, 'chem': 71.5, 'maths': 81.0}}
+# print(student_1['marks']['phy'])
+
+
+# keys(): to fetch the keys only of a partcular dictionary
+# Syntax: dict.key()
+
+# print(student_1.keys(), type(student_1.keys()))
+
+# values(): to get the values only for a particular dictionary
+# Syntax: dict.values()
+
+# print(student_1.values(), type(student_1.values()))
+
+# items(): to fetch both the key: value pair together
+# Syntax: dict.item()
+
+# print(student_1.items(), type(student_1.items()))
