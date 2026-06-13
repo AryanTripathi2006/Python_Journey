@@ -5,26 +5,26 @@
 # print(l1[2 : 6 : 1])
 # print(l1[-5::])
 
-# Concattenation
+# Concatenation
 # l1 = [1, 7, 2]
 # l2 = [0, 5]
-# print(l1 + l2)
-# print(l2 + l1)
+# print(l1 + l2)                        # gets concaneted in the given oder i.e., Output: [1, 7, 2, 0, 5]
+# print(l2 + l1)                        # [0, 5, 1, 7, 2]
 
 # Repetition Operator used by *
 # l1 = [1, 7, 2]
 # l2 = [0, 5]
-# print(l2 * 3)                         # repetition will be in a single list
+# print(l2 * 3)                         # repetition will be in a single list on elements will repeat.
 
 # Methods of the list
 
-# 1. append = adds only one item / element to end of the list.
+# 1. append = adds only one item / element at a time at the end of the list.
 # Syntax: list.append(item)
 
 # fruits = ["Mango", "Apple", "Orange"]
 # fruits.append("Banana")
 # print(fruits)
-# print(fruits.append("Banana"))                   # but in this the exisisting list is getting changed or is updated the list functions does not creates a new list.
+# print(fruits.append("Banana"))                   # but in this the exisisting list is getting changed or is updated, the list functions does not creates a new list.
 #                                                                # ^
 #                                                                # |
 # s1 = "Python is fun"                                           # |
@@ -52,12 +52,12 @@
 
 # fruits.remove("Mango")
 # print(fruits)
+# gives error if a particular element which is to be removed is not in the list.
 
-
-# 5. pop = remove / delete certain elemnt from a given index.
+# 5. pop = remove / delete certain element from a given index.
 # Syntax: list.pop(index)
 
-# fruits.pop(  )
+# fruits.pop( )                     # by default it deletes the last index element will be delted.
 # print(fruits)
 
 
@@ -71,12 +71,12 @@
 # print(week)
 
 
-# 7. sort = sorts the list in ascending order both alphabetically and numerically
+# 7. sort = By default sorts the list in ascending order both alphabetically and numerically
 # Syntax: list.sort()
 
 # nums = [4, 9, 0, 1, 2, 8]
 # list1 = week + nums
-# list1.sort()                             # sort function can sort either only alphabets or numbers not both at the same time.
+# list1.sort()                               # sort function can sort either only alphabets or numbers not both at the same time.
 # print(list1)
 # week.sort()
 # nums.sort()

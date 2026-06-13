@@ -1,4 +1,4 @@
-# Tuple = sequence of items as a collection enclosed within ()
+# Tuple = sequence of items as a collection, comma separated enclosed within ()
 # (item1, item2, item3, ....)
 # ordered, immutable, Duplicacy allowed
 
@@ -13,7 +13,7 @@ t2 = 10, 20, 30 ,40                                        # not neccessary to p
 # print(t1[-1])
 # print(t1[-4:])
 
-# Typecasting
+# Typecasting: It doesn't means existing value will be changed instead when typcasted, get assigned into new value.
 
 # l1 = [1, 2, 3]
 # print(l1, type(l1))

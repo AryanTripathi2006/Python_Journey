@@ -1,5 +1,5 @@
 # List = A data type in which we can store collection of datas (i.e. any type of other data can be stored in a single data type)
-#        Ordered, mutable
+#        Ordered, mutable, Duplicacy allowed
 
 
 
